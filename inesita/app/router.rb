@@ -3,6 +3,6 @@ class Router
 
   def routes
     route '/', to: Home
-    route '/description', to: Description
+    route '/about', to: About
   end
 end
