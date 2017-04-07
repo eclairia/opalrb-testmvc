@@ -3,7 +3,6 @@ class About
 
   def render
     div class: 'jumbotron text-center' do
-      img src: 'http://avatars.githubusercontent.com/inesita-rb'
       h1 do
         text "Bienvenue sur la page about"
       end
