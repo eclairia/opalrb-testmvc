@@ -1,17 +1,17 @@
 class Store
   include Inesita::Injection
 
-  attr_accessor :counter
+  attr_accessor :platform
 
   def init
-    @counter = 0
+    @platform = 0
   end
 
   def increase
-    @counter += 1
+    @platform += 1
   end
 
   def decrease
-    @counter -= 1
+    @platform -= 1
   end
 end

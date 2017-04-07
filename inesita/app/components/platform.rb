@@ -1,6 +1,8 @@
 class Platform
   include Inesita::Component
 
+  ROUTES = %i(add)
+
   def render
     div class: 'jumbotron text-center' do
       h1 do
@@ -20,13 +22,25 @@ class Platform
         end
         tr do
           td do
-            'Test de li'
+            'QuimeO'
           end
           td do
-            'Test de li 2'
+            '2'
           end
           td do
-            'Test de li 3'
+            'jhgfdsdghjkjhgfdsjhgfdsdfghjjhgfd'
+          end
+        end
+      end
+    end
+
+    div class: 'jumbotron text-center' do
+      ul class: 'nav navbar-nav' do
+        ROUTES.each do |route|
+          li class: "#{'active' if router.current_url?(route)}" do
+            a href: router.url_for(route) do
+              text route.capitalize
+            end
           end
         end
       end
