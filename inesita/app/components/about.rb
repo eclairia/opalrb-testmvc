@@ -7,7 +7,7 @@ class About
         text "Bienvenue sur la page about"
       end
       h4 do
-        text 'ette page est vide pour le momemt, soyez patient :)'
+        text 'Cette page est vide pour le momemt, soyez patient :)'
       end
     end
   end
