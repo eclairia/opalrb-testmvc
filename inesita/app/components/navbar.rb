@@ -6,7 +6,7 @@ class NavBar
       div class: 'container' do
         div class: 'navbar-header' do
           span class: 'navbar-brand' do
-            text 'inesita_app'
+            text 'Inesita framework test'
           end
         end
       end
