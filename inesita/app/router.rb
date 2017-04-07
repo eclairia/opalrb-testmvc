@@ -6,5 +6,6 @@ class Router
     route '/about', to: About
     route '/platform', to: Platform
     route '/add', to: Add
+    route '/update', to: Update
   end
 end

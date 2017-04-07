@@ -1,4 +1,4 @@
-class Add
+class Update
   include Inesita::Component
 
   def render

@@ -1,7 +1,7 @@
 class Platform
   include Inesita::Component
 
-  ROUTES = %i(add)
+  ROUTES = %i(add update)
 
   def render
     div class: 'jumbotron text-center' do
