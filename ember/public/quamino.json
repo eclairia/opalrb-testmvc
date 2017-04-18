@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "type": "platforms",
+      "links": {
+        "self": "localhost4200/platforms/1"
+      },
+      "attributes": {
+        "name": "SNCF",
+        "licence": "2",
+        "apikey": "jhgfjhgfjhgfhgf"
+      },
+    }
+  ]
+}
