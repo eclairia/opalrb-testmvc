@@ -1,4 +1,3 @@
-# file: app/assets/javascripts/application.rb
 require 'opal' # Not necessary if you load Opal from a CDN
 require 'clearwater'
 
